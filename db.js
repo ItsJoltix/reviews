@@ -5,9 +5,9 @@ import mysql from 'mysql2';
 // Create a connection pool
 export const pool = mysql.createPool({
     host: 'localhost',
-    user: 'express',
-    password: 'Azerty123',
-    database: 'Labo7',
+    user: 'Jelle.michiels',
+    password: 'Midoriya_2003',
+    database: 'anidrink',
 }).promise();
 
 export async function getReviews(){
