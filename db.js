@@ -4,7 +4,8 @@ import mysql from 'mysql2';
 
 // Create a connection pool
 export const pool = mysql.createPool({
-    host: 'localhost',
+    host: 'jellemichiels.ikdoeict.be',
+    port: 3306
     user: 'Jelle.michiels',
     password: 'Midoriya_2003',
     database: 'anidrink',
